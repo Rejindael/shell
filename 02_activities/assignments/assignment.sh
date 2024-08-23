@@ -19,10 +19,10 @@ touch dir2/file1.txt dir2/file2.txt dir2/file3.txt dir2/file4.txt dir2/file5.txt
 echo "Hello world" >> dir2/file3.txt
 
 # 5. Verify that file3.txt contains the words "hello world" by printing the contents of the file in the terminal
-echo dir2/file3.txt
+cat dir2/file3.txt
 # 6. Delete file4.txt
-rm file4.txt
+rm dir2/file4.txt
 # 7. Delete directories dir4 and dir5 including all their contents (if any)
-rm -rf dir4 dir 5
+rm -rf dir4 dir5
 # 8. List the contents of the current working directory to verify the deletion of dir4 and dir5
 ls
